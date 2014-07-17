@@ -1,4 +1,4 @@
-plot_national_google_data <- function(which_years = c(1:9))
+plot_national_google_data <- function(which_years = c(0:9))
 {
   national = read.csv(file = "~/P-MEDDS/febris/source/data.csv",header=TRUE)[,1:53]
   par(mfrow=c(1,1))
@@ -12,13 +12,14 @@ plot_national_google_data <- function(which_years = c(1:9))
     g_range = range (0, g_range, sum[a:b],na.rm = TRUE)
   }
   c = 1
+  
   for(i in which_years){
-    par(new=T)
     Colors = rainbow(length(which_years))
     a = 42+52*i 
     b = 94+52*i
     plot(sum[a:b], type="l",col = Colors[c], ylim = g_range, axes = FALSE, ann = FALSE)
     c = c+1
+    par(new=T)
   }
   axis(1, at= seq(1,60,by = 5) , lab = months)
   axis(2, las =1)
@@ -26,6 +27,6 @@ plot_national_google_data <- function(which_years = c(1:9))
   title(main="National", col.main="black", font.main=4)
   
 
-  legend("topright",title= "Year",years[which_years],lwd = c(2.5,2.5),col = Colors)
+  legend("topright",title= "Year",years[which_years+1],lwd = c(2.5,2.5),col = Colors)
   par(new= FALSE)
 }
