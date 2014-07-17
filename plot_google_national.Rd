@@ -1,5 +1,5 @@
 \name{plot_national_google_data}
-\alias{plot.results.mcmc}
+\alias{plot_national_google_data}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
   Plot the Google National Data on One Plot
