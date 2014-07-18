@@ -10,7 +10,7 @@ plot_city_google_data <- function(which_years, which_cities){
       b = 94+52*k
       g_range <- 0
       for(i in which_cities)
-        g_range = range (0, g_range, city[a:b,i],na.rm = TRUE)
+        g_range = range (0, g_range, city[a:b,i+1],na.rm = TRUE)
         
         
       

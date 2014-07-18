@@ -32,7 +32,7 @@
   %% ~put references to the literature/web site here ~
 }
 \author{
-  Garrett Thomas
+  Garrett Thomas, Jeffery Chen
 }
 \note{
   %%  ~~further notes~~
