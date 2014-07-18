@@ -229,7 +229,7 @@
   %% ~put references to the literature/web site here ~
 }
 \author{
-  Garrett Thomas, Jeffery Chen
+  Garrett Thomas, Jeffrey Chen
 }
 \note{
   %%  ~~further notes~~
