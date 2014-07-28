@@ -1,0 +1,98 @@
+name,lat,lon
+Anchorage AK,61.18,-149.19
+Birmingham AL,33.53,-86.8
+Little Rock AR,34.72,-92.35
+Mesa AZ,33.42,-111.74
+Phoenix AZ,33.54,-112.07
+Scottsdale AZ,33.69,-111.87
+Tempe AZ,33.39,-111.93
+Tucson AZ,32.2,-110.89
+Berkeley CA,37.87,-122.27
+Fresno CA,36.78,-119.79
+Irvine CA,33.66,-117.8
+Los Angeles CA,34.11,-118.41
+Oakland CA,37.77,-122.22
+Sacramento CA,38.57,-121.47
+San Diego CA,32.81,-117.14
+San Francisco CA,37.77,-122.45
+San Jose CA,37.3,-121.85
+Santa Clara CA,37.37,-121.97
+Sunnyvale CA,37.39,-122.03
+Colorado Springs CO,38.86,-104.76
+Denver CO,39.77,-104.87
+Washington DC,NA,NA
+Gainesville FL,29.67,-82.34
+Jacksonville FL,30.33,-81.66
+Miami FL,25.78,-80.21
+Orlando FL,28.5,-81.37
+Tampa FL,27.96,-82.48
+Atlanta GA,33.76,-84.42
+Roswell GA,34.04,-84.36
+Honolulu HI,21.32,-157.8
+Des Moines IA,41.58,-93.62
+Boise ID,43.61,-116.23
+Chicago IL,41.84,-87.68
+Indianapolis IN,39.78,-86.15
+Wichita KS,37.69,-97.34
+Lexington KY,38.04,-84.46
+Baton Rouge LA,30.45,-91.13
+New Orleans LA,30.07,-89.93
+Boston MA,42.34,-71.02
+Somerville MA,42.39,-71.1
+Baltimore MD,39.3,-76.61
+Grand Rapids MI,42.96,-85.66
+St Paul MN,44.95,-93.1
+Kansas City MO,39.12,-94.55
+Springfield MO,37.2,-93.29
+St Louis MO,38.64,-90.24
+Jackson MS,32.32,-90.21
+Cary NC,35.78,-78.8
+Charlotte NC,35.2,-80.83
+Durham NC,35.98,-78.91
+Greensboro NC,36.08,-79.83
+Raleigh NC,35.82,-78.66
+Lincoln NE,40.82,-96.69
+Omaha NE,41.26,-96.01
+Newark NJ,40.72,-74.17
+Albuquerque NM,35.12,-106.62
+Las Vegas NV,36.21,-115.22
+Reno NV,39.54,-119.82
+Albany NY,42.67,-73.8
+Buffalo NY,42.89,-78.86
+New York NY,40.67,-73.94
+Rochester NY,43.17,-77.62
+Cleveland OH,41.48,-81.68
+Columbus OH,39.99,-82.99
+Dayton OH,39.78,-84.2
+Oklahoma City OK,35.47,-97.51
+Tulsa OK,36.13,-95.92
+Beaverton OR,45.48,-122.82
+Eugene OR,44.05,-123.11
+Portland OR,45.54,-122.66
+Philadelphia PA,40.01,-75.13
+Pittsburgh PA,40.44,-79.98
+State College PA,40.79,-77.86
+Providence RI,41.82,-71.42
+Columbia SC,34.04,-80.89
+Greenville SC,34.84,-82.37
+Knoxville TN,35.97,-83.95
+Memphis TN,35.11,-90.01
+Nashville TN,36.17,-86.78
+Austin TX,30.31,-97.75
+Dallas TX,32.79,-96.77
+Ft Worth TX,32.75,-97.34
+Houston TX,29.77,-95.39
+Irving TX,32.86,-96.97
+Lubbock TX,33.58,-101.88
+Plano TX,33.05,-96.75
+San Antonio TX,29.46,-98.51
+Salt Lake City UT,40.78,-111.93
+Arlington VA,38.88,-77.1
+Norfolk VA,36.92,-76.24
+Reston VA,38.95,-77.35
+Richmond VA,37.53,-77.47
+Bellevue WA,47.6,-122.16
+Seattle WA,47.62,-122.35
+Spokane WA,47.67,-117.41
+Madison WI,43.08,-89.39
+Milwaukee WI,43.06,-87.97

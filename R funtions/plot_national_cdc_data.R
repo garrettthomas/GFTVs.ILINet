@@ -1,6 +1,6 @@
 plot_national_cdc_data <- function(which_years = c(0:17))
 {
-  national = read.csv("~/Downloads/FluViewPhase2DataNational/ILINet.csv")[,3:5]
+  national = read.csv("~/Downloads/FluViewPhase2DataNational/ILINet_national.csv")[,3:5]
   par(mfrow=c(1,1))
   months = c("July" ,"August", "September", "October" ,"November", "December","January","February", "March", "April", "May" ,"June")
   years = c("98-99","99-00", "00-01", "01-02", "02-03", "03-04", "04-05","05-06", "06-07", "07-08", "08-09", "09-10", 
@@ -25,5 +25,5 @@ plot_national_cdc_data <- function(which_years = c(0:17))
   
   
   legend("topright",title= "Year",years[which_years],lwd = c(2.5,2.5),col = Colors)
-  par(new= FALSE)
+  #par(new= FALSE)
 }
