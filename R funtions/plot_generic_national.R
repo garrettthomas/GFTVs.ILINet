@@ -1,4 +1,4 @@
- plot_national <- function(files, years=c(0:9)){
+plot_national <- function(files, years=c(0:9)){
    #for (x in 1:10){
      #plot <- paste("region", x, "GoogILIdata.pdf", sep = "")
    pdf("nationalGFTILINet.pdf")
