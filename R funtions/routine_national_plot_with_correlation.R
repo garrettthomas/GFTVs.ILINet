@@ -1,0 +1,7 @@
+source("~/GFTvsILINET/R funtions/national_plot_with_correlation.R")
+a <- list(file = "~/GFTvsILINET/DATA/google_national_data_sum.csv", c(42, 564), 2)
+b <- list(file = "~/GFTvsILINET/DATA/FluViewPhase2DataNational/ILINet_national.csv", c(355, 877), 5)
+c <- list(a, b)
+pdf("~/GFTvsILINET/Plots/national_data_corr.pdf")
+plot_national(c)  
+dev.off()

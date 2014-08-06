@@ -1,0 +1,11 @@
+data(us.cities)
+a <- read.csv("~/GFTvsILINET/DATA/peak_four_weeks_google_city_data.csv", check.names=FALSE)
+a <- a[,order(names(a))]
+b <- subset(us.cities, is.element(name,names(a)))
+c <- as.Date(unname(unlist(a[7, ])), "%m/%d/%y")
+d <- sort(unique(c))
+xdates <- seq(as.Date(d[1]), as.Date(d[length(d)]), by="1 week")
+colors_for_dates <- data.frame(color = heat.colors(length(xdates)), row.names = xdates)
+e <- rescale(b[ ,3], c(2,5))
+map("worldHires","USA", xlim=c(-125,-60), ylim=c(23,50), col="black")
+map.cities(b, pch = 19, cex = e, col = as.character(colors_for_dates[as.character(c),1]))
