@@ -294,10 +294,12 @@ get.CDC.GFT.data <- function(CDC=CDC,GFT=GFT,reg,year,CDC.or.GFT){
 plot.CDC.GFT.fit <- function(chain.dir,output.dir,regions,years,ireals){ #ireals = # of chains
   
       pdf(file = paste(output.dir, 'All_CDC_GFT_Fits.pdf', set = ''))
+      plots = list()
+      cnt = 1
       for (reg in regions){
             for (year in years){
                   
-               
+                  
               
                   #load, melt, and rbind the raw CDC
                   raw.dat = data.frame(cdc = get.CDC.GFT.data(CDC=CDC,GFT=GFT,reg,year,1))
@@ -321,9 +323,9 @@ plot.CDC.GFT.fit <- function(chain.dir,output.dir,regions,years,ireals){ #ireals
                   gft.solbest$Weeks = 1:length(raw.dat$gft)  
                   dat.long = rbind(dat.long,melt(gft.solbest,id='Weeks'))
                                     
-                  
-                  ggplot(data=dat.long, aes(x=Weeks, y=value, colour=variable)) + geom_line(size=1.25) + scale_color_manual(values=c("dodgerblue3", rep("cyan3",ireals), 'red',rep('salmon',ireals)))
-                  ggsave(paste(output.dir,'CDC.GFT.fits.', year, '.reg', reg,'.png',sep=''),width=12,height=8)
+                  plot(1:10)
+                  #ggplot(data=dat.long, aes(x=Weeks, y=value, colour=variable)) + geom_line(size=1.25) + scale_color_manual(values=c("dodgerblue3", rep("cyan3",ireals), 'red',rep('salmon',ireals)))
+               #   ggsave(paste(output.dir,'CDC.GFT.fits.', year, '.reg', reg,'.png',sep=''),width=12,height=8)
             }
       }
       dev.off()
